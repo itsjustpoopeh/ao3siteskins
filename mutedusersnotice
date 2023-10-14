@@ -1,0 +1,15 @@
+  /*
+  ---INFO---
+  Found on reddit
+  Mutes the muted users flag 
+  i know i've muted users you can stop telling me
+  i don't even care if my skin makes it not work i have another that fixes it so whatever
+  */
+.region.filtered.works-index .notes,
+.region.works-search .notes {
+  display: none;
+}
+
+p.muted.notice {
+  display: none;
+}
