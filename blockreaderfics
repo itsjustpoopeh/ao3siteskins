@@ -1,0 +1,18 @@
+  /*
+  ---INFO---
+  permablocking reader fics. i dont like them deal with it
+  set up to get most anything tagged with reader or /reader or reader/ or /you or you/
+  might miss some but that's going to be a small number and more stringent filters are going to get non-reader fics
+  (my first go around got everything tagged with anything with "read" anywhere in the string turns out that's lots of words)
+  you can change or add tags by copying the tag url and taking only the part at the end "/tags/TAG/works"
+  it's important to do it this way because tags with a space between the words have special characters (%20) and i, personally, never remember to include that
+  */
+.blurb:has(a[href$="/tags/Reader/works"]),
+.blurb:has(a[href$="/tags/Reader-Insert/works"]),
+.blurb:has(a[href*="Self-Insert/works" i]),
+.blurb:has(a[href*="*s*You/works" i]),
+.blurb:has(a[href*="*s*Reader/works" i]),
+.blurb:has(a[href*="/tags/Reader*s*" i]),
+.blurb:has(a[href*="/tags/You*s*" i]) {
+  display: none !important;
+}
