@@ -1,0 +1,14 @@
+  /*
+  ---INFO---
+  snippet to block mega xovers
+  y'all know those works that have every fandom on the archive?
+  y'all know what i'm talking about i know you do
+  i found this... somewhere. idk i don't remember
+  this lets you block them
+  change nth-of-type(n) to a number 1 larger than the maximum you want
+  so say you'll allow 4 fandoms
+  change (n) to (5)
+  */
+.blurb:has(h5.fandoms):has(a.tag:nth-of-type(n)) {
+  display: none !important;
+}
