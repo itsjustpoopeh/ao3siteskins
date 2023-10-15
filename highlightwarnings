@@ -1,0 +1,34 @@
+  /*
+    -----------------INFO-----------------
+  CSS to highlight tags that you don't necessarily want to block, just be warned about
+  This will get tags that aren't in the required warnings as well
+  Major triggers are highlighted red with yellow font
+  Minor warnings highlighted orange with black font
+  These are separated entirely on my own personal vibes obvs this can be customized
+  Change background or font color to a hexcode or rgb or hsl or just a color name if desired
+  The hsla/rgba codes are handy because the last integer can be set to a decimal for transparency for readability on dark themes
+  */
+  /*---MAJOR---*/
+.tag[href*="rape" i],
+.tag[href*="non-con" i],
+.tag[href*="noncon" i],
+.tag[href*="sexual%20assault" i],
+.tag[href*="death" i],
+.tag[href*="dead%20dove" i],
+.tag[href*="suicide" i] {
+  font-weight: bold;
+  background: hsla(0, 100%, 35%, 0.5);
+  color: orange !important;
+}
+  /*---MINOR---*/
+.tag[href*="Alternate%20Universe" i],
+.tag[href*="Hurt%20No%20Comfort" i],
+.tag[href*="Ambiguous*s*Open%20Ending" i],
+.tag[href*="Dubious%20Consent" i],
+.tag[href*="dubcon" i],
+.tag[href*="Hate%20Sex" i],
+.tag[href*="abuse" i] {
+  font-weight: bold;
+  background: hsla(36, 100%, 50%, 0.5);
+  color: black !important;
+}
