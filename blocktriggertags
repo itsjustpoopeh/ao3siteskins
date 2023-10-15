@@ -1,0 +1,16 @@
+  /*
+  ---INFO---
+  Permablock undesired tags sitewide without needing to exclude or save searches
+  lines with $ are direct tag references, get those directly from the tag url for accuracy
+  lines with * will block any tag with that word in it ("slavery" for instance also should block "Alternate Universe - Slavery" so it doesn't have to reference a URL directly
+  this will block these tags across the entire site regardless of fandom by default
+  i keep my css blocks in separate txt files so the comments remain
+  ao3 strips everything between /* */ when the skin is saved
+  */
+.blurb:has(a[href$="/tags/Spit%20Kink/works"]),
+.blurb:has(a[href*="slavery" i]),
+.blurb:has(a[href*="incest" i]),
+.blurb:has(a[href*="lolicon" i]),
+.blurb:has(a[href*="shota" i]) {
+  display: none !important;
+}
