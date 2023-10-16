@@ -1,0 +1,29 @@
+  /*
+  ---INFO---
+  snippet to block individual users
+  legacy from pre-muting feature
+  keeping as backup since custom skins can break the muting feature according to the muted users notice that never goes away
+  pro-tip; add the commented user name to your backup txt file (like so: /*USERNAME*/ ) so you know who they are later
+  it'll be stripped out when it's saved to the archive
+  i genuinely have no idea who any of these users are any more (and there's no way to search the archive unlike works)
+  so i'm not stripping the originals out so you can really get an idea for what it should look like
+  */
+.user-6054398,
+.user-208635,
+.user-6963034,
+.user-9113784,
+.user-2312770,
+.user-12849421,
+.user-6593512,
+.user-13409683,
+.user-3628350,
+.user-6703360,
+.user-59022,
+.user-6053072,
+.user-1971685,
+.user-14546931,
+.user-7027684,
+.user-4024188,
+.user-13354600 {
+  display: none !important;
+}
