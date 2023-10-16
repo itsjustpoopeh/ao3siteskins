@@ -1,0 +1,11 @@
+  /*
+  ---INFO---
+  snippet to block individual works if they're just getting on your nerves
+  and not being caught by any of the other filters
+  you know what i'm talking about i know you do
+  get the work ID from the url
+  */
+.work-WORKID,
+.work-WORKID {
+  display: none !important;
+}
