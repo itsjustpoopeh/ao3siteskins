@@ -1,0 +1,11 @@
+  /*
+  ---INFO---
+  some people like to post fics with no summary and no freeform tags
+  if they can't be bothered, neither can i tbh
+  so this skin blocks them
+  if they come back later and update it with a summary, it'll be unblocked automatically
+  i still won't see it bc it's in the past but that's also not my problem
+  */
+.blurb:has(ul.required-tags):not(:has(.freeforms > .tag)):not(:has(blockquote)) {
+  display: none !important;
+}
