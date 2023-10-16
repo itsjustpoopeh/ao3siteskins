@@ -1,0 +1,14 @@
+  /*
+  ---INFO---
+  snippet to highlight chosen favorite writers in color of choice
+  if you've ever used the fanficnavigator tampermonkey script this does the same thing of highlighting your faves just a few more steps but works on mobile browsers as well
+  this is the same code as the old blocking users skin from before the muting feature
+  just changing the display none to a colored background
+  will color the entire work blurb and any comments those authors leave
+  get the profile ID # to add
+  change color to whatever works for you, hexcode or common color name works fine, i needed transparency otherwise i couldn't read anything bc of the dark theme i use
+  */
+.user-PROFILEID,
+.user-PROFILEID {
+  background: rgba(0, 105, 17, 0.25) !important;
+}
