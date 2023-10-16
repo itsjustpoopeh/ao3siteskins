@@ -1,0 +1,19 @@
+/*
+code to highlight tags of tropes and themes i personally like
+not really useful except to catch my attention on the search pages and i like it so there
+obviously change to suit your preferences but so you get the idea
+*/
+.tag[href*="Autism" i],
+.tag[href*="Autistic" i],
+.tag[href*="Neurodiver" i],
+.tag[href*="Asexual" i],
+.tag[href*="Aromantic" i],
+.tag[href*="Nonbinary" i],
+.tag[href*="Genderfluid" i],
+.tag[href*="Genderqueer" i],
+.tag[href*="Trans" i]:not(.tag[href*="phob"]),
+.tag[href*="Queer" i] {
+  font-weight: bold;
+  background: hsla(120, 60%, 50%, 0.50);
+  color: black !important;
+}
