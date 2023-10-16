@@ -1,0 +1,96 @@
+  /*
+  ---INFO---
+  on search pages, groups tags by category for readability
+  found on reddit still looking for the link in my history
+  Changes the line heights to not be unreasonable. colors are set to work with my dark them
+  use find replace to change hexcode #F89A00 in all seven places to a color readable on your personal theme
+  you can also use common color names like red blue green etc instead i just needed a different shade so i could read it
+  */
+.blurb .relationships {
+  background: none;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  line-height: 0.5;
+}
+
+ul.tags {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  line-height: 0.5;
+}
+
+ul.tags li.warnings,
+ul.tags li.relationships,
+ul.tags li.characters,
+ul.tags li.freeforms {
+  float: left !important;
+  line-height: 0.5;
+  margin: 0px;
+}
+
+li.warnings + li.relationships,
+li.relationships + li.characters,
+li.characters + li.freeforms,
+li.warnings + li.characters,
+li.warnings + li.freeforms,
+li.relationships + li.freeforms {
+  clear: left;
+  line-height: 0.5;
+  margin: 0px;
+}
+
+ul.tags li.warnings:first-child:before {
+  content: "Archive Warnings: ";
+  color: #F89A00;
+  font-weight: bold;
+  line-height: 0.5;
+  margin: 0px;
+}
+
+li.warnings + li.relationships:before {
+  content: "Relationships: ";
+  color: #F89A00;
+  font-weight: bold;
+  line-height: 0.5;
+  margin: 0px;
+}
+
+li.relationships + li.characters:before {
+  content: "Characters: ";
+  color: #F89A00;
+  font-weight: bold;
+  line-height: 0.5;
+  margin: 0px;
+}
+
+li.characters + li.freeforms:before {
+  content: "Freeform: ";
+  color: #F89A00;
+  font-weight: bold;
+  line-height: 0.5;
+  margin: 0px;
+}
+
+li.warnings + li.characters:before {
+  content: "Characters: ";
+  color: #F89A00;
+  font-weight: bold;
+  line-height: 0.5;
+  margin: 0px;
+}
+
+li.warnings + li.freeforms:before {
+  content: "Freeform: ";
+  color: #F89A00;
+  font-weight: bold;
+  line-height: 0.5;
+  margin: 0px;
+}
+
+li.relationships + li.freeforms:before {
+  content: "Freeform: ";
+  color: #F89A00;
+  font-weight: bold;
+  line-height: 0.5;
+  margin: 0px;
+}
