@@ -13,3 +13,6 @@ structure:
     - Block trigger tags
     - Muted users notice
     Etc. I have like a dozen? Seems to work fine so far   
+
+
+NOTE: to firefox users - forgot that the :()has selector is not enabled by default go to about:config search for the layout.css.has-selector.enabled setting and change to true otherwise a lot of the tag skins won't work
