@@ -1,0 +1,11 @@
+  /*
+  ---INFO---
+  stop showing stats
+  delete lines that you don't want to hide. frex, i don't hide bookmarks
+  */
+.stats .hits,
+.stats .kudos,
+.stats .bookmarks,
+.stats .comments {
+display: none;
+}
