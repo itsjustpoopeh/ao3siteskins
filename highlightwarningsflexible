@@ -1,6 +1,7 @@
   /*
     -----------------INFO-----------------
   CSS to highlight tags that you don't necessarily want to block, just be warned about
+  Don't use this and Highlight Mandatory Warnings together there's no point. pick one
   This will get tags that aren't in the required warnings as well
   Major triggers are highlighted red with yellow font
   Minor warnings highlighted orange with black font
