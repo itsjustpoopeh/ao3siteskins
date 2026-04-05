@@ -1,16 +1,25 @@
+  /*
+    -----------------INFO-----------------
+  CSS to highlight the archive required warnings
+  Don't use this and Highlight Warnings Flexible together there's no point. pick one
+  Major triggers are highlighted red
+  Minor warnings highlighted orange
+  NAWA highlighted green
+  */
+  /*---MAJOR---*/
 .tag[href$="/tags/Choose%20Not%20To%20Use%20Archive%20Warnings/works"],
 .tag[href$="/tags/Rape*s*Non-Con/works" i],
 .tag[href$="/tags/Major%20Character%20Death/works"] {
   color: #FFFBEB !important;
   background-color: #9F0712 !important;
 }
-
+  /*---MINOR---*/
 .tag[href$="/tags/Graphic%20Depictions%20Of%20Violence/works"],
 .tag[href$="/tags/Underage%20Sex/works"] {
   color: #FFFBEB !important;
   background-color: #D0872E !important;
 }
-
+  /*---GREEN---*/
 .tag[href$="/tags/No%20Archive%20Warnings%20Apply/works"] {
   color: #FFFBEB !important;
   background-color: #016630 !important;
