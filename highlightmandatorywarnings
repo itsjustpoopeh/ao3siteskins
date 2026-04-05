@@ -1,0 +1,17 @@
+.tag[href$="/tags/Choose%20Not%20To%20Use%20Archive%20Warnings/works"],
+.tag[href$="/tags/Rape*s*Non-Con/works" i],
+.tag[href$="/tags/Major%20Character%20Death/works"] {
+  color: #FFFBEB !important;
+  background-color: #9F0712 !important;
+}
+
+.tag[href$="/tags/Graphic%20Depictions%20Of%20Violence/works"],
+.tag[href$="/tags/Underage%20Sex/works"] {
+  color: #FFFBEB !important;
+  background-color: #D0872E !important;
+}
+
+.tag[href$="/tags/No%20Archive%20Warnings%20Apply/works"] {
+  color: #FFFBEB !important;
+  background-color: #016630 !important;
+}
