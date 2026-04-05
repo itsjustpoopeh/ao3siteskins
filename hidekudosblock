@@ -1,0 +1,9 @@
+  /*
+    -----------------INFO-----------------
+  hides the kudos block on work pages. sometimes some asshole thinks it's cute to have a username with a thousand characters
+  it is not cute
+  now it is gone
+  */
+p.kudos {
+  display: none !important;
+}
