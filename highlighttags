@@ -1,0 +1,121 @@
+/* skin to highlight tags based on content */
+
+/* TROPES */
+
+.tag[href*="fluff" i],
+.tag[href*="Hurt*s*Comfort" i],
+.tag[href*="intimacy" i] {
+  background: #82a67d;
+  color: white !important;
+}
+
+/* META */
+
+.tag[href*="POV" i],
+.tag[href*="rpf" i],
+.tag[href$="/tags/Character%20Study/works"],
+.tag[href$="/tags/Non-Linear%20Narrative/works"],
+.tag[href*="unreliable%20narrator" i],
+.tag[href*="drabble" i],
+.tag[href*="fanart" i],
+.tag[href*="embedded%20image" i],
+.tag[href*="mixed%20media" i],
+.tag[href*="podfic" i],
+.tag[href*="original" i],
+.tag[href*="omc" i],
+.tag[href*="ofc" i],
+.tag[href*="alternate%20universe" i],
+.tag[href*="social%20media" i],
+.tag[href*="crack" i],
+.tag[href*="text" i],
+.tag[href*="chat" i],
+.tag[href*="twitter" i],
+.tag[href*="epistolary" i] {
+  background: #F5B041;
+  color: white !important;
+}
+
+/* QUEER */
+
+.tag[href*="Asexual" i],
+.tag[href*="Aromantic" i],
+.tag[href*="demisexual" i],
+.tag[href*="Nonbinary" i],
+.tag[href*="Genderfluid" i],
+.tag[href*="Genderqueer" i],
+.tag[href*="Trans" i]:not(.tag[href*="phob"]),
+.tag[href*="Queer" i],
+.tag[href*="lesbian" i],
+.tag[href*="sapphic" i],
+.tag[href*="gay" i],
+.tag[href*="bisexual" i],
+.tag[href*="pansexual" i] {
+  background: #c08eff;
+  color: white !important;
+}
+
+/* ROMANCE */
+
+.tag[href*="requited" i],
+.tag[href*="pining" i],
+.tag[href*="Slow%20Burn" i],
+.tag[href*="relationship" i],
+.tag[href*="to%20lovers" i],
+.tag[href*="love%20triangle" i] {
+  background: #ee77a8;
+  color: white !important;
+}
+
+/* DISABILITY */
+
+.tag[href*="Autis" i],
+.tag[href*="adhd" i],
+.tag[href*="chronic%20pain" i],
+.tag[href*="ocd" i],
+.tag[href*="illness" i],
+.tag[href*="Disordered%20Eating" i],
+.tag[href*="eating%20disorder" i],
+.tag[href*="mental%20health" i],
+.tag[href*="Neurodiver" i],
+.tag[href*="blind" i],
+.tag[href*="deaf" i],
+.tag[href*="disabled" i],
+.tag[href*="disability" i],
+.tag[href*="anxiety" i],
+.tag[href*="ptsd" i],
+.tag[href*="cerebral%20palsy" i],
+.tag[href*="parapleg" i],
+.tag[href*="quadripleg" i],
+.tag[href*="depress" i] {
+  background: #3bb1d1;
+  color: white !important;
+}
+
+/* WARNINGS */
+
+.tag[href*="angst" i],
+.tag[href*="abuse" i],
+.tag[href*="assault" i],
+.tag[href*="death" i],
+.tag[href*="suicid" i],
+.tag[href*="gore" i],
+.tag[href*="dead dove" i],
+.tag[href*="bashing" i],
+.tag[href*="violen" i],
+.tag[href*="rape" i],
+.tag[href*="non-con" i],
+.tag[href*="dubcon" i],
+.tag[href*="homophobia" i],
+.tag[href*="outing" i],
+.tag[href*="transphobia" i],
+.tag[href*="racism" i],
+.tag[href*="ableism" i],
+.tag[href*="misogyny" i],
+.tag[href*="bigotry" i],
+.tag[href*="whump" i],
+.tag[href*="trauma" i],
+.tag[href*="grief" i] {
+  font-weight: bold;
+  background: #C0392B;
+  color: white !important;
+}
