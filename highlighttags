@@ -2,6 +2,9 @@
 
 /* TROPES */
 
+.tag[href*="humor i],
+.tag[href*="misunder" i],
+.tag[href*="miscomm" i],
 .tag[href*="fluff" i],
 .tag[href*="Hurt*s*Comfort" i],
 .tag[href*="intimacy" i] {
@@ -11,6 +14,9 @@
 
 /* META */
 
+.tag[href$="/tags/Canon%20Compliant/works"],
+.tag[href*="post-ep" i],
+.tag[href*="post-canon" i],
 .tag[href*="POV" i],
 .tag[href*="rpf" i],
 .tag[href$="/tags/Character%20Study/works"],
@@ -70,6 +76,7 @@
 
 /* DISABILITY */
 
+.tag[href*="panic%20att" i],
 .tag[href*="Autis" i],
 .tag[href*="adhd" i],
 .tag[href*="chronic%20pain" i],
@@ -95,6 +102,10 @@
 
 /* WARNINGS */
 
+.tag[href*="spoiler" i],
+.tag[href*="drug" i],
+.tag[href*="infidelity" i],
+.tag[href*="covid" i],
 .tag[href*="unhappy%20end" i],
 .tag[href*="sad%20end" i],
 .tag[href*="bittersweet%20end" i],
