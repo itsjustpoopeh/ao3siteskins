@@ -2,7 +2,7 @@
 
 /* TROPES */
 
-.tag[href*="humor i],
+.tag[href*="humor" i],
 .tag[href*="misunder" i],
 .tag[href*="miscomm" i],
 .tag[href*="fluff" i],
