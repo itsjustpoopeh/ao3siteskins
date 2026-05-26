@@ -38,6 +38,8 @@
 /* QUEER */
 
 .tag[href*="Asexual" i],
+.tag[href*="coming%20out" i],
+.tag[href*="non-binary" i],
 .tag[href*="Aromantic" i],
 .tag[href*="demisexual" i],
 .tag[href*="Nonbinary" i],
@@ -93,6 +95,9 @@
 
 /* WARNINGS */
 
+.tag[href*="unhappy%20end" i],
+.tag[href*="sad%20end" i],
+.tag[href*="bittersweet%20end" i],
 .tag[href*="angst" i],
 .tag[href*="abuse" i],
 .tag[href*="assault" i],
