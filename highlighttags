@@ -4,6 +4,7 @@
 .tag[href*="drug" i],
 .tag[href*="infidelity" i],
 .tag[href*="covid" i],
+.tag[href*="pandemic" i],
 .tag[href*="unhappy%20end" i],
 .tag[href*="sad%20end" i],
 .tag[href*="bittersweet%20end" i],
@@ -68,6 +69,10 @@
 
 /*TROPES*/
 
+.tag[href*="pregnan" i],
+.tag[href*="kid%20fic" i],
+.tag[href*="accidental%20baby" i],
+.tag[href*="mpreg" i],
 .tag[href*="humor" i],
 .tag[href*="misunder" i],
 .tag[href*="miscomm" i],
