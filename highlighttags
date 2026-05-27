@@ -1,5 +1,7 @@
 /*WARNINGS*/
 
+.tag[href*="generative%20ai" i],
+.tag[href*="ai-generat" i],
 .tag[href*="spoiler" i],
 .tag[href*="drug" i],
 .tag[href*="infidelity" i],
@@ -59,7 +61,7 @@
 .tag[href*="alternate%20universe" i],
 .tag[href*="social%20media" i],
 .tag[href*="crack" i],
-.tag[href*="text" i],
+.tag[href*="text" i]:not(.tag[href*="AI-Gen" i]),
 .tag[href*="chat" i],
 .tag[href*="twitter" i],
 .tag[href*="epistolary" i] {
