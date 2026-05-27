@@ -45,9 +45,12 @@
 
 /*META*/
 
+.tag[href*="canon%20diverg" i],
 .tag[href$="/tags/Canon%20Compliant/works"],
 .tag[href*="post-ep" i],
 .tag[href*="post-canon" i],
+.tag[href*="post-book" i],
+.tag[href*="episode" i],
 .tag[href*="POV" i],
 .tag[href*="rpf" i],
 .tag[href$="/tags/Character%20Study/works"],
@@ -74,6 +77,8 @@
 
 /*TROPES*/
 
+.tag[href*="fix-it" i],
+.tag[href$="/tags/Angst%20with%20a%20Happy%20Ending/works"],
 .tag[href*="pregnan" i],
 .tag[href*="kid%20fic" i],
 .tag[href*="accidental%20baby" i],
