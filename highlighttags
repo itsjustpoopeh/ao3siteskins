@@ -1,6 +1,8 @@
 /*WARNINGS*/
 
 .tag[href*="generative%20ai" i],
+.tag[href*="ai-ass" i],
+.tag[href*="ai%20ass" i],
 .tag[href*="ai-generat" i],
 .tag[href*="spoiler" i],
 .tag[href*="drug" i],
