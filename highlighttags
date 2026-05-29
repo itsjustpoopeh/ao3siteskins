@@ -39,7 +39,7 @@
 .tag[href*="trauma" i],
 .tag[href*="grief" i] {
   font-weight: bold;
-  background: #C0392B;
+  background: DarkRed;
   color: white !important;
 }
 
@@ -71,7 +71,7 @@
 .tag[href*="chat" i],
 .tag[href*="twitter" i],
 .tag[href*="epistolary" i] {
-  background: #F5B041;
+  background: DarkKhaki;
   color: white !important;
 }
 
@@ -79,6 +79,7 @@
 
 .tag[href*="fix-it" i],
 .tag[href$="/tags/Angst%20with%20a%20Happy%20Ending/works"],
+.tag[href$="/tags/Happy%20Ending/works"],
 .tag[href*="pregnan" i],
 .tag[href*="kid%20fic" i],
 .tag[href*="accidental%20baby" i],
@@ -89,7 +90,7 @@
 .tag[href*="fluff" i],
 .tag[href*="Hurt*s*Comfort" i],
 .tag[href*="intimacy" i] {
-  background: #82a67d;
+  background: MediumSeaGreen;
   color: white !important;
 }
 
@@ -101,7 +102,7 @@
 .tag[href*="relationship" i],
 .tag[href*="to%20lovers" i],
 .tag[href*="love%20triangle" i] {
-  background: #ee77a8;
+  background: PaleVioletRed;
   color: white !important;
 }
 
@@ -122,7 +123,7 @@
 .tag[href*="gay" i],
 .tag[href*="bisexual" i],
 .tag[href*="pansexual" i] {
-  background: #c08eff;
+  background: DarkOrchid;
   color: white !important;
 }
 
@@ -148,6 +149,6 @@
 .tag[href*="parapleg" i],
 .tag[href*="quadripleg" i],
 .tag[href*="depress" i] {
-  background: #3bb1d1;
+  background: SteelBlue;
   color: white !important;
 }
