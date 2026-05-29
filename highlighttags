@@ -109,6 +109,8 @@
 
 /*QUEER*/
 
+.tag[href*="intersex" i],
+.tag[href*="polyam" i],
 .tag[href*="Asexual" i],
 .tag[href*="coming%20out" i],
 .tag[href*="non-binary" i],
