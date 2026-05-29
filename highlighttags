@@ -96,6 +96,7 @@
 
 /*ROMANCE*/
 
+.tag[href*="love%20confess" i],
 .tag[href*="requited" i],
 .tag[href*="pining" i],
 .tag[href*="Slow%20Burn" i],
