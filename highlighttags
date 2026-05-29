@@ -1,5 +1,9 @@
 /*WARNINGS*/
 
+.tag[href*="abusive" i],
+.tag[href*="incest" i],
+.tag[href*="underage" i],
+.tag[href*="self-harm" i],
 .tag[href*="biphob" i],
 .tag[href*="xenophob" i],
 .tag[href*="stalk" i],
@@ -50,16 +54,19 @@
 
 /*META*/
 
-.tag[href*="canon%20diverg" i],
-.tag[href$="/tags/Canon%20Compliant/works"],
+.tag[href*="digital%20art" i],
+.tag[href*="fanart" i],
+.tag[href*="screenplay" i],
+.tag[href*="script" i],
+.tag[href*="5+1" i],
+.tag[href*="canon" i],
 .tag[href*="post-ep" i],
-.tag[href*="post-canon" i],
 .tag[href*="post-book" i],
 .tag[href*="episode" i],
 .tag[href*="POV" i],
 .tag[href*="rpf" i],
-.tag[href$="/tags/Character%20Study/works"],
-.tag[href$="/tags/Non-Linear%20Narrative/works"],
+.tag[href$="Character%20Study" i],
+.tag[href$="Narrative"] i,
 .tag[href*="unreliable%20narrator" i],
 .tag[href*="drabble" i],
 .tag[href*="fanart" i],
@@ -82,6 +89,7 @@
 
 /*TROPES*/
 
+.tag[href*="everybody%20lives" i],
 .tag[href*="fix-it" i],
 .tag[href*="happy%20end" i],
 .tag[href*="pregnan" i],
