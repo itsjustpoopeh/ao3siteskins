@@ -1,5 +1,10 @@
 /*WARNINGS*/
 
+.tag[href*="biphob" i],
+.tag[href*="xenophob" i],
+.tag[href*="stalk" i],
+.tag[href*="kidnap" i],
+.tag[href*="injur" i],
 .tag[href*="hurt%20no%20comfort" i],
 .tag[href*="generative%20ai" i],
 .tag[href*="ai-ass" i],
@@ -10,7 +15,7 @@
 .tag[href*="infidelity" i],
 .tag[href*="covid" i],
 .tag[href*="pandemic" i],
-.tag[href*="unhappy%20end" i],
+.tag[href$="/tags/Unhappy%20Ending/works"],
 .tag[href*="sad%20end" i],
 .tag[href*="bittersweet%20end" i],
 .tag[href*="angst" i],
@@ -78,8 +83,7 @@
 /*TROPES*/
 
 .tag[href*="fix-it" i],
-.tag[href$="/tags/Angst%20with%20a%20Happy%20Ending/works"],
-.tag[href$="/tags/Happy%20Ending/works"],
+.tag[href*="happy%20end" i],
 .tag[href*="pregnan" i],
 .tag[href*="kid%20fic" i],
 .tag[href*="accidental%20baby" i],
