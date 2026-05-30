@@ -1,0 +1,33 @@
+/*HIGHLIGHT TAGS TEMPLATE*/
+/* tags with the $ are directly referencing the tag URL. copy the link and keep everything from /tags/URL/works. note that this will not catch tags synned to the canonical
+
+tags with * are indirect references to any matching string in any tag. so say you want all Bottom Character tags highlighted, it will find any tag with that string anywhere. so be careful if your string might be in commonly used words, like when I thought I was being clever about highlighting AI or Reader tags
+
+if you have any words with a space in between, like Blow Job, replace the space with %20 - blow%20job. if there is a / replace the / with *s* - ie hurt/comfort becomes hurt*s*comfort 
+
+the lowercase i included after the quotation marks in indirect tags indicates that the match should be case insensitive so you don't have to make separate lines for Oral and oral, for example
+
+if you're adding more tags to the list be sure to include a comma after all but the last one
+
+background color is the color of the tag highlight. color is the font color. you can use hex codes or rgb codes or CSS color names like I did. here's a link to the site I use to find color codes.
+
+https://htmlcolorcodes.com/color-names/
+
+if you add more to the list, every line except the last needs a comma at the end
+
+save this code to a text file or your notes app or wherever to preserve the instructions and make your modifications there, then paste into your skin on AO3 */
+
+
+.tag[href$="/tags/Smut/works"],
+.tag[href$="/tags/INSERTURL/works"],
+.tag[href$="/tags/INSERTURL/works"],
+.tag[href$="/tags/INSERTURL/works"],
+.tag[href$="/tags/INSERTURL/works"],
+.tag[href*="anal%20sex" i],
+.tag[href*="oral" i],
+.tag[href*="bottom" i],
+.tag[href*="INSERTTEXTSTRING" i],
+.tag[href*="INSERTTEXTSTRING" i] {
+  background: MediumVioletRed;
+  color: white !important;
+}
