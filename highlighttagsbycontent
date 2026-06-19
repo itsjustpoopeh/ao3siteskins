@@ -1,5 +1,7 @@
 /*WARNINGS*/
 
+.tag[href*="queerphob" i],
+.tag[href$="/tags/Other%20Additional%20Tags%20to%20Be%20Added/works"],
 .tag[href*="abusive" i],
 .tag[href*="incest" i],
 .tag[href*="underage" i],
@@ -89,6 +91,7 @@
 
 /*TROPES*/
 
+.tag[href*="omega" i],
 .tag[href*="everybody%20lives" i],
 .tag[href*="fix-it" i],
 .tag[href*="happy%20end" i]:not(.tag[href*="un" i]),
@@ -102,12 +105,13 @@
 .tag[href*="fluff" i],
 .tag[href*="Hurt*s*Comfort" i],
 .tag[href*="intimacy" i] {
-  background: MediumSeaGreen;
+  background: SlateBlue;
   color: white !important;
 }
 
 /*ROMANCE*/
 
+.tag[href*="soulmate" i],
 .tag[href*="love%20confess" i],
 .tag[href*="requited" i],
 .tag[href*="pining" i],
@@ -132,13 +136,13 @@
 .tag[href*="Genderfluid" i],
 .tag[href*="Genderqueer" i],
 .tag[href*="Trans" i]:not(.tag[href*="phob"]),
-.tag[href*="Queer" i],
+.tag[href*="Queer" i]:not(.tag[href*="phob"]),
 .tag[href*="lesbian" i],
 .tag[href*="sapphic" i],
 .tag[href*="gay" i],
 .tag[href*="bisexual" i],
 .tag[href*="pansexual" i] {
-  background: DarkOrchid;
+  background: DeepPink;
   color: white !important;
 }
 
