@@ -1,0 +1,19 @@
+/* puts a box around the tags and removes the commas. except for the commas after fandom tags idk why */
+
+a.tag,
+a.tag:visited,
+a.tag:link {
+  display: inline-block;
+  padding: 2px 5px;
+  margin: 2px 0px;
+  border: 1px solid #A9A9A9;
+  border-radius: 3px;
+}
+
+.commas li:after {
+  content: none;
+}
+
+.favorite a.tag {
+  border: none;
+}
