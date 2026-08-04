@@ -1,5 +1,6 @@
 /*WARNINGS*/
 
+.tag[href*="abandoned" i],
 .tag[href*="queerphob" i],
 .tag[href$="/tags/Other%20Additional%20Tags%20to%20Be%20Added/works"],
 .tag[href*="abusive" i],
