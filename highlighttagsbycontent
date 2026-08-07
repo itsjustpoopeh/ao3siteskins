@@ -1,4 +1,15 @@
-/*WARNINGS*/
+/* INFO:
+
+these are SUBJECTIVE. you might think some things are more severe than I do. you might want things highlighted that I didn't think of. 
+
+please customize all sections according to YOUR needs
+
+IMPORTANT: a Deal Breakers section is included at the bottom for your personal deal breaker tags with placeholder text. either copy the tags from the included sections, add your own, or delete it. it won't hurt anything if you don't delete it
+
+i HIGHLY reccomend copying to a plain text file to customize your own copy*/
+
+/*WARNINGS-LEVEL 2
+less severe warnings, dark red background with bold white font*/
 
 .tag[href*="abandoned" i],
 .tag[href*="queerphob" i],
@@ -12,7 +23,6 @@
 .tag[href*="stalk" i],
 .tag[href*="kidnap" i],
 .tag[href*="injur" i],
-.tag[href*="hurt%20no%20comfort" i],
 .tag[href*="generative%20ai" i],
 .tag[href*="ai-ass" i],
 .tag[href*="ai%20ass" i],
@@ -22,21 +32,15 @@
 .tag[href*="infidelity" i],
 .tag[href*="covid" i],
 .tag[href*="pandemic" i],
-.tag[href*="Unhappy" i],
-.tag[href*="sad%20end" i],
 .tag[href*="bittersweet%20end" i],
 .tag[href*="angst" i],
 .tag[href*="abuse" i],
 .tag[href*="assault" i],
 .tag[href*="death" i],
-.tag[href*="suicid" i],
+.tag[href*="suicidal" i],
 .tag[href*="gore" i],
-.tag[href*="dead%20dove" i],
 .tag[href*="bashing" i],
 .tag[href*="violen" i],
-.tag[href*="rape" i],
-.tag[href*="non-con" i],
-.tag[href*="noncon" i],
 .tag[href*="dubcon" i],
 .tag[href*="dub-con" i],
 .tag[href*="dubious%20con" i],
@@ -53,6 +57,24 @@
   font-weight: bold;
   background: DarkRed;
   color: white !important;
+}
+
+/*WARNINGS-LEVEL 1
+severe warnings and tags, dark red background with bold dark orange font*/
+
+.tag[href*="dead%20dove" i],
+.tag[href*="unhappy%20end" i],
+.tag[href*="sad%20end" i],
+.tag[href*="rape" i],
+.tag[href*="non-con" i],
+.tag[href*="noncon" i],
+.tag[href*="hurt%20no%20comfort" i],
+.tag[href*="tragedy" i],
+.tag[href*="miscarriage" i],
+.tag[href*="suicide" i] {
+  font-weight: bold;
+  background: DarkRed;
+  color: DarkOrange !important;
 }
 
 /*META*/
@@ -171,4 +193,15 @@
 .tag[href*="depress" i] {
   background: SteelBlue;
   color: white !important;
+}
+
+/*DEAL BREAKERS
+in my personal copy of this skin i have my own personal deal breakers in this section*/
+
+.tag[href*="INSERTTEXTSTRING" i],
+.tag[href*="INSERTTEXTSTRING" i],
+.tag[href$="/tags/INSERTURL/works"] {
+  font-weight: bold;
+  background: DarkRed;
+  color: DarkOrange !important;
 }
