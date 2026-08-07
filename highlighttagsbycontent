@@ -11,6 +11,11 @@ i HIGHLY reccomend copying to a plain text file to customize your own copy*/
 /*WARNINGS-LEVEL 2
 less severe warnings, dark red background with bold white font*/
 
+.tag[href*="*s*reader" i],
+.tag[href*="%20*a*%20reader" i],
+.tag[href*="reader-insert" i],
+.tag[href$="/tags/Reader/works"],
+.tag[href$="/tags/You/works"],
 .tag[href*="abandoned" i],
 .tag[href*="queerphob" i],
 .tag[href$="/tags/Other%20Additional%20Tags%20to%20Be%20Added/works"],
